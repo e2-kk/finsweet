@@ -1,0 +1,275 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.none {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #1c1e53;
+  color: #fff;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 130px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+  align-items: center;
+  margin-bottom: 126px;
+}
+
+.ul li {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.ul li:hover {
+  opacity: 0.8;
+}
+
+.btn {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background: transparent;
+  padding: 16px 48px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3ms;
+  margin-left: 48px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/******* HERO SECTION ************/
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info {
+  width: 582px;
+}
+
+.header-title {
+  margin-bottom: 24px;
+
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+
+.header-text {
+  margin-bottom: 48px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 28px;
+  width: 590px;
+}
+
+.header-btn {
+  display: inline-block;
+  border-radius: 41px;
+  background-color: #fcd980;
+  padding: 16px 56px;
+  margin-right: 40px;
+
+  color: #1b1c2b;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 28px;
+  position: relative;
+  display: inline-block;
+}
+
+.header-link::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 12px;
+  background-image: url(./img/arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  right: -28px;
+  bottom: 6px;
+}
+
+/********     SECTION WORK      ******/
+
+.section-work {
+  padding: 130px 0;
+  color: #282938;
+  background-color: #f4f6fc;
+}
+
+.section-work-row {
+  display: flex;
+  gap: 142px;
+}
+
+.section-work-content {
+}
+
+.work-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 16px;
+}
+
+.work-info {
+  margin-bottom: 16px;
+  width: 405px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.work-link {
+  color: #2405f2;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  position: relative;
+}
+
+.work-link::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 12px;
+  background-image: url(./img/arrow2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: -28px;
+  bottom: 5px;
+}
+
+.section-work-cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 25px;
+}
+
+.card {
+}
+
+.img-card {
+  display: block;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.mask {
+  width: 50px;
+  height: 50px;
+}
+
+.img-card::after {
+  position: absolute;
+  content: "01";
+  color: #fff;
+  font-size: 18px;
+  width: 20px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  left: 19px;
+  top: 8px;
+}
+
+.img-card--1::after {
+  position: absolute;
+  content: "02";
+  color: #fff;
+  font-size: 18px;
+  width: 20px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  left: 18px;
+  top: 8px;
+}
+
+.img-card--2::after {
+  position: absolute;
+  content: "03";
+  color: #fff;
+  font-size: 18px;
+  width: 20px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  left: 18px;
+  top: 8px;
+}
+
+.img-card--3::after {
+  position: absolute;
+  content: "04";
+  color: #fff;
+  font-size: 18px;
+  width: 20px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  left: 18px;
+  top: 8px;
+}
+.card-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.card-text {
+  width: 303px;
+  font-weight: 400px;
+  line-height: 28px;
+}
